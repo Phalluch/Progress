@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Lux,.Hout{
+    width: 100vw;
+    height: 50lvh;
+    background-color: rgb(241, 234, 234);
+    border-radius: 50px;
+    position:relative;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.container{
+    background-color: rgb(214, 211, 211);
+    width: 80%;
+    border-radius: 18px;
+    position: relative;
+}
+.Lux .skill{
+    background: rgb(200,232,199);
+    background: linear-gradient(90deg, rgba(200,232,199,1) 23%, rgba(88,236,234,1) 83%);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 18px;
+}
+
+.Lux .C{
+    width: 70%;   
+    color: black;
+    background: rgb(219,53,124);
+    background: linear-gradient(90deg, rgba(219,53,124,1) 23%, rgba(236,170,88,1) 83%); 
+}
+.Lux .html{
+    width: 50%;
+    color: black;
+}
+.Lux .Css{
+    width: 40%;
+    color: black;
+}
+.Hout .skill{
+    background: rgb(200,232,199);
+    background: linear-gradient(90deg, rgba(200,232,199,1) 23%, rgba(88,236,234,1) 83%);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 18px;
+}
+
+.Hout .C{
+    width: 50%;   
+    color: black;
+    background: rgb(117, 219, 53);
+    background: linear-gradient(90deg, rgb(162, 232, 42) 23%, rgb(118, 228, 55) 83%); 
+}
+.Hout .html{
+    width: 10%;
+    color: black;
+}
+.Hout .Css{
+    width: 10%;
+    color: black;
+}
